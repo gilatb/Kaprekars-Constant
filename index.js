@@ -15,34 +15,9 @@
 // Your program should return the number of times this routine must be performed
 // until 6174 is reached.
 
-// export function KaprekarsConstant(num) {
+export function KaprekarsConstant(num) {
 
-//   // code goes here
+  // code goes here
 
-//   return num;
-// }
-
-exports.kaprekarsConstant = function (num) {
-
-  if (typeof num !== 'number' && typeof num !== 'string') throw new Error();
-
-  let asc, desc, count = 0;
-
-  (function routine() {
-    if (num === 6174) return count;
-
-    while (String(num).length < 4) {
-      num *= 10;
-    }
-
-    const split = String(num).split('').sort((a, b) => a - b);
-    const asc = parseInt(split.join(''));
-    const desc = parseInt(split.reverse().join(''));
-
-    num = desc - asc;
-    count++;
-    return routine(num);
-  })(num)
-
-  return count;
+  return num;
 }
