@@ -1,4 +1,4 @@
-# Algorithm challenge // Equal Sides
+# Algorithm Challenge // Kaprekar's Constant
 
 - [1. Getting started](#1-getting-started)
 - [2. Challenge](#2-challenge)
