@@ -1,0 +1,17 @@
+{
+  "name": "kaprekarsconstant",
+  "version": "1.0.0",
+  "description": "- [1. Getting started](#1-getting-started) - [2. Challenge](#2-challenge)   - [2.1. Examples](#21-examples)   - [2.2. Testing your solution](#22-testing-your-solution)   - [2.3. Submitting your solution](#23-submitting-your-solution)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "devDependencies": {}
+}
