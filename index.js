@@ -15,9 +15,8 @@
 // Your program should return the number of times this routine must be performed
 // until 6174 is reached.
 
-exports.KaprekarsConstant = (num) => {
+exports.kaprekarsConstant = (num) => {
 
-  // code goes here
+  //code goes here
 
-  return num;
 }
