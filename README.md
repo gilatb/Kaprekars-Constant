@@ -24,13 +24,13 @@ Your program should return the number of times this routine must be performed un
 
 If num is 3524 your program should return 3 because of the following steps: (1) 5432 - 2345 = 3087, (2) 8730 - 0378 = 8352, (3) 8532 - 2358 = 6174.
 
-#### Test Case #1:
-Input: 2111
-Output: 5
+Test Case #1:   
+Input: 2111     
+Output: 5       
 
-#### Test Case #2:
-Input: 9831
-Output: 7
+Test Case #2:     
+Input: 9831     
+Output: 7     
 
 ### 2.2. Testing your solution
 To test your solution, run `npm test` in the root directory to run the automated tests.
