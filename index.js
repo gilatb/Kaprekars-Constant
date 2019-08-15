@@ -15,7 +15,7 @@
 // Your program should return the number of times this routine must be performed
 // until 6174 is reached.
 
-export function KaprekarsConstant(num) {
+exports.KaprekarsConstant = (num) => {
 
   // code goes here
 
